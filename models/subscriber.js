@@ -10,11 +10,11 @@ const subscriberSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    color: {
+    title: {
         type: String,
         required: true
     },
-    title: {
+    color: {
         type: String,
         required: true
     }
